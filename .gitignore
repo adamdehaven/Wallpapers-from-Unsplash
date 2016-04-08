@@ -1,0 +1,12 @@
+.DS_Store
+# Track 'saved-wallpapers' directory, but don't add photos within to the repository
+images/saved-wallpapers/*
+images/current-wallpapers/*
+
+# Sublime Text Project files
+*.sublime-project
+*.sublime-workspace
+
+# Image sources
+images/source/*
+*.ai
