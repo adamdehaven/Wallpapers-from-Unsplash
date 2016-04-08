@@ -3,7 +3,7 @@ A collection of Terminal commands and an Alfred workflow that allow Mac users to
 
 > Additional information is available on [adamdehaven.com](http://adamdehaven.com/blog/2016/04/wallpapers-from-unsplash-terminal-commands-and-alfred-workflow)
 
-<br>
+![Screenshot image](images/source/screenshot.png)
 
 -----
 - [What's Included?](#whats-included)
