@@ -79,7 +79,7 @@ Insert and save the following lines at the bottom of your `.bash_profile`. You w
 alias unsplash="osascript ~/Dropbox/Development/Wallpapers-from-Unsplash/unsplash.scpt"
 ```
 
-Now you may easily run the script from the command line with any of the [commands listed in the table above](#alfred-workflow). You may view the info below by running `unsplash --help` on the command line:
+Now you may easily run the script from the command line with the <code>unsplash</code> command followed by any of the [commands listed in the table above](#alfred-workflow). Some commands are slightly different than the Alfred equivalent, so refer to the help screen below. You may view the info any time below by running `unsplash --help` on the command line:
 
 ```bash
 $ unsplash --help
