@@ -47,13 +47,13 @@ KEYWORD|ARGUMENT|DESCRIPTION
 `collection`|`collection id`|Replaces the desktop background(s) with a random photo from the **specified collection** from Unsplash.<br><br>**_Example:_** `collection 165921`
 `username`|`string`|Replaces the desktop background(s) with a random photo from the **specified user's** photos from Unsplash.<br><br>**_Example:_** `username stvcrtr`
 `fetch`|`photo id`|Replaces the desktop background(s) with a **specified photo** from Unsplash.<br><br>**_Example:_** `fetch KqVHRmHVwwM`
-`monitor`|`integer`|Replaces the desktop background specified by the `integer` with a random photo from Unsplash.<br><br>**_Example:_** `monitor 2`
+`desktop`|`integer`|Replaces the desktop background specified by the `integer` with a random photo from Unsplash.<br><br>**_Example:_** `desktop 2`
 `save`|`integer`|Saves the current desktop background specified by the `integer` to the `Wallpapers-from-Unsplash/images/saved-wallpapers/` directory.<br><br>**_Example:_** `save 2`
 `load`|none|Replaces the current desktop background(s) with a random saved photo from `Wallpapers-from-Unsplash/images/saved-wallpapers/`
 **USER**|**CONFIG**|**METHODS**
 `setpath`|`filepath`|Sets the path of the `Wallpapers-from-Unsplash/` directory. Type the keyword `setpath` followed by `Wallpapers-from-Unsplash`and then select the correct folder in Alfred.<br><br>**_Required Usage:_** `setpath Wallpapers-from-Unsplash`
-`desktopwidth`|`integer`|Sets the desktop width at which to download photos.<br><br>**_Default:_** `desktopwidth 2560`
-`desktopheight`|`integer`|Sets the desktop height at which to download photos.<br><br>**_Default:_** `desktopheight 1440`
+`setdesktopwidth`|`integer`|Sets the desktop width at which to download photos.<br><br>**_Default:_** `setdesktopwidth 2560`
+`setdesktopheight`|`integer`|Sets the desktop height at which to download photos.<br><br>**_Default:_** `setdesktopheight 1440`
 
 
 ### Bash Commands and Alias for Terminal
@@ -96,8 +96,8 @@ $ unsplash --help
 #       $ unsplash collection [collection id]
 #       $ unsplash username [username]
 #       $ unsplash fetch [photo id]
-#       $ unsplash monitor [monitor #]
-#       $ unsplash save [monitor #]
+#       $ unsplash desktop [desktop #]
+#       $ unsplash save [desktop #]
 #       $ unsplash load
 #   
 #   You may set your desktop dimensions by
