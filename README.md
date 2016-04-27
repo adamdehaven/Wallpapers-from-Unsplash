@@ -124,17 +124,17 @@ $ unsplash --help
 **Why must I rename the `Wallpapers-from-Unsplash-master` directory?**
 > Because of the methods used to fetch, store, and load photos from the Unsplash API as well as from your local machine, the directory name **must** be changed to `Wallpapers-from-Unsplash` and remain the same (and hopefully unique) in order to ensure proper file handling. This becomes increasingly important if you are an Alfred user who sync's workflows across multiple computers (via Dropbox, etc.).
 
-## Support
-Do you have questions? Would you like to contribute? Something else? Feel free to fork the project, [open an issue](https://github.com/adamdehaven/Wallpapers-from-Unsplash/issues), or submit a pull request. 
-
-Not into looking at code? No worries. Reach out on Twitter [@adamdehaven](http://twitter.com/adamdehaven).
-
 **I'm using the Alfred workflow and ran one of the commands, but I'm receiving an error. What happened? What can I do to fix?**
 > Many things can happen that could cause an error. It's possible the project was unable to reach the Unsplash API (however unlikely unless you're behind a network proxy). The easiest fix to try is simply waiting 30 seconds, and trying the command again.<br><br>If the issue persists, here's some things to try:
 * Make sure your machine isn't behind a network firewall or proxy that prevents it from freely accessing the web.
 * Run the <code>setpath</code> command (if issue is with the Alfred workflow) as described in the [table above](#alfred-workflow).
 * Within the project directory, make a copy of the <code>saved-wallpapers</code> folder (including any files inside). Next, delete the workflow from Alfred, as well as the project's <code>Wallpapers-from-Unsplash</code> folder. Download a fresh copy of the project and then follow the [installation instructions above](#installation). Finally, replace the new <code>saved-wallpapers</code> folder within the project with the one you copied earlier. The project should now run successfully.
 * If you're still having problems, [open an issue](https://github.com/adamdehaven/Wallpapers-from-Unsplash/issues) and I'll be glad to help!
+
+## Support
+Do you have questions? Would you like to contribute? Something else? Feel free to fork the project, [open an issue](https://github.com/adamdehaven/Wallpapers-from-Unsplash/issues), or submit a pull request. 
+
+Not into looking at code? No worries. Reach out on Twitter [@adamdehaven](http://twitter.com/adamdehaven).
 
 ## License
 Released under the [MIT License](https://github.com/adamdehaven/Wallpapers-from-Unsplash/blob/master/LICENSE).
