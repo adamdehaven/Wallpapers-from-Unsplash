@@ -116,7 +116,7 @@ $ unsplash --help
 > **Yes.**<br> You must purchase the Alfred Powerpack in order to add custom workflows.
 
 **If I just want to utilize the Terminal commands, do I need to be an [Alfred](https://www.alfredapp.com/) user?**
-> **No!**<br> Just check out the [Bash Alias for Terminal](#bash-alias-for-terminal) section to get started.
+> **No!**<br> Just check out the [Bash Alias for Terminal](#bash-commands-and-alias-for-terminal) section to get started.
 
 **I'm not a "power-user" and am unfamiliar with using Terminal or command line tools. Is this for me?**
 > **Yes!**<br> The installation and usage instructions outlined below are simple and should have you up and running in minutes! Have a question? No problem, I'm here to help. Check out the [Support](#support) section on how to get in touch.
