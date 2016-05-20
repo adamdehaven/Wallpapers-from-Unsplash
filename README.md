@@ -1,6 +1,6 @@
 # Wallpapers from Unsplash 
 
-[![version](https://img.shields.io/badge/version-1.3-brightgreen.svg?style=flat)](http://adamdehaven.com/blog/2016/04/wallpapers-from-unsplash-terminal-commands-and-alfred-workflow) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://raw.githubusercontent.com/adamdehaven/Wallpapers-from-Unsplash/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/adamdehaven/Wallpapers-from-Unsplash.svg?maxAge=2592000)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/archive/master.zip) [![GitHub commits](https://img.shields.io/github/commits-since/adamdehaven/Wallpapers-from-Unsplash/v1.3.svg?maxAge=2592000)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/commits/master) [![GitHub issues](https://img.shields.io/github/issues/adamdehaven/Wallpapers-from-Unsplash.svg?maxAge=2592000)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/issues) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://raw.githubusercontent.com/adamdehaven/Wallpapers-from-Unsplash/master/LICENSE)
 
 A collection of Terminal commands and an Alfred workflow that allow Mac users to replace their desktop background(s) with photos from the popular [Unsplash.com](http://unsplash.com). 
 
