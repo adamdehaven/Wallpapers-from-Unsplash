@@ -1,6 +1,6 @@
 # Wallpapers from Unsplash 
 
-![version](https://img.shields.io/badge/version-1.3-brightgreen.svg?style=flat&link=http://adamdehaven.com/blog/2016/04/wallpapers-from-unsplash-terminal-commands-and-alfred-workflow)
+[![version](https://img.shields.io/badge/version-1.3-brightgreen.svg?style=flat)](http://adamdehaven.com/blog/2016/04/wallpapers-from-unsplash-terminal-commands-and-alfred-workflow)
 
 A collection of Terminal commands and an Alfred workflow that allow Mac users to replace their desktop background(s) with photos from the popular [Unsplash.com](http://unsplash.com). 
 
