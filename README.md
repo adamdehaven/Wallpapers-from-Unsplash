@@ -1,6 +1,6 @@
 # Wallpapers from Unsplash 
 
-[![GitHub release](https://img.shields.io/badge/alfred-v3-brightgreen.svg?maxAge=3600)](https://www.alfredapp.com/blog/announcements/alfred-3-is-here/) [![GitHub release](https://img.shields.io/github/release/adamdehaven/Wallpapers-from-Unsplash.svg?maxAge=3600)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/archive/master.zip) [![GitHub commits](https://img.shields.io/github/commits-since/adamdehaven/Wallpapers-from-Unsplash/v2.0.svg?maxAge=3600)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/compare/v2.0...master) [![GitHub issues](https://img.shields.io/github/issues/adamdehaven/Wallpapers-from-Unsplash.svg?maxAge=3600)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/issues) [![license](https://img.shields.io/github/license/adamdehaven/Wallpapers-from-Unsplash.svg?maxAge=3600)](https://raw.githubusercontent.com/adamdehaven/Wallpapers-from-Unsplash/master/LICENSE)
+[![GitHub release](https://img.shields.io/badge/alfred-v3-brightgreen.svg?maxAge=3600)](https://www.alfredapp.com/blog/announcements/alfred-3-is-here/) [![GitHub release](https://img.shields.io/github/release/adamdehaven/Wallpapers-from-Unsplash.svg?maxAge=3600)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/archive/master.zip) [![GitHub commits](https://img.shields.io/github/commits-since/adamdehaven/Wallpapers-from-Unsplash/v2.1.0.svg?maxAge=3600)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/compare/v2.1.0...master) [![GitHub issues](https://img.shields.io/github/issues/adamdehaven/Wallpapers-from-Unsplash.svg?maxAge=3600)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/issues) [![license](https://img.shields.io/github/license/adamdehaven/Wallpapers-from-Unsplash.svg?maxAge=3600)](https://raw.githubusercontent.com/adamdehaven/Wallpapers-from-Unsplash/master/LICENSE)
 
 A collection of Terminal commands and an Alfred workflow that allow Mac users to replace their desktop background(s) with photos from the popular [Unsplash.com](http://unsplash.com). 
 
@@ -39,7 +39,7 @@ After renaming the folder `Wallpapers-from-Unsplash` you may relocate the folder
 -----
 
 ### Alfred Workflow
-Install the 'Wallpapers-from-Unsplash' [Alfred](https://www.alfredapp.com/) workflow simply by double-clicking the `Wallpapers-from-Unsplash.alfredworkflow` file. Once installed, the AlfredApp workflow allows for 10 different keyword methods, along with 3 configuration methods:
+Install the 'Wallpapers-from-Unsplash' [Alfred](https://www.alfredapp.com/) workflow simply by double-clicking the `Wallpapers-from-Unsplash.alfredworkflow` file. Once installed, the AlfredApp workflow allows for 11 different keyword methods, along with 3 configuration methods:
 
 KEYWORD|ARGUMENT|DESCRIPTION
 :---:|:---:|:---
@@ -52,6 +52,7 @@ KEYWORD|ARGUMENT|DESCRIPTION
 `fetch`|`photo id`|Replaces the desktop background(s) with a **specified photo** from Unsplash.<br><br>**_Example:_** `fetch KqVHRmHVwwM`
 `desktop`|`integer`|Replaces the desktop background specified by the `integer` with a random photo from Unsplash.<br><br>**_Example:_** `desktop 2`
 `save`|`integer`|Saves the current desktop background specified by the `integer` to the `Wallpapers-from-Unsplash/images/saved-wallpapers/` directory.<br><br>**_Example:_** `save 2`
+`saved`|`string`|Replaces the current desktop background(s) with a specific saved photo from your `Wallpapers-from-Unsplash/images/saved-wallpapers/` directory. You may pass a full or partial image name.<br><br>**_Example:_** `saved TZCehSn-T-o`
 `load`|none|Replaces the current desktop background(s) with a random saved photo from `Wallpapers-from-Unsplash/images/saved-wallpapers/`
 **USER**|**CONFIG**|**METHODS**
 `setpath`|`Wallpapers-from-Unsplash`|Sets the path of the `Wallpapers-from-Unsplash/` directory. Type the keyword `setpath` followed by `Wallpapers-from-Unsplash`and then select the correct folder in Alfred.<br><br>**_Required Usage:_** `setpath Wallpapers-from-Unsplash`
@@ -101,6 +102,7 @@ $ unsplash --help
 #       $ unsplash fetch [photo id]
 #       $ unsplash desktop [desktop #]
 #       $ unsplash save [desktop #]
+#       $ unsplash saved [full or partial image name]
 #       $ unsplash load
 #   
 #   You may set your desktop dimensions by
