@@ -1,6 +1,6 @@
 # Wallpapers from Unsplash 
 
-[![GitHub release](https://img.shields.io/badge/alfred-v3-brightgreen.svg?maxAge=3600)](https://www.alfredapp.com/blog/announcements/alfred-3-is-here/) [![GitHub release](https://img.shields.io/github/release/adamdehaven/Wallpapers-from-Unsplash.svg?maxAge=3600)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/archive/master.zip) [![GitHub commits](https://img.shields.io/github/commits-since/adamdehaven/Wallpapers-from-Unsplash/v2.1.2.svg?maxAge=3600)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/compare/v2.1.2...master) [![GitHub issues](https://img.shields.io/github/issues/adamdehaven/Wallpapers-from-Unsplash.svg?maxAge=3600)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/issues) [![license](https://img.shields.io/github/license/adamdehaven/Wallpapers-from-Unsplash.svg?maxAge=3600)](https://raw.githubusercontent.com/adamdehaven/Wallpapers-from-Unsplash/master/LICENSE)
+[![GitHub release](https://img.shields.io/badge/alfred-v3-brightgreen.svg?maxAge=3600)](https://www.alfredapp.com/blog/announcements/alfred-3-is-here/) [![GitHub release](https://img.shields.io/github/release/adamdehaven/Wallpapers-from-Unsplash.svg?maxAge=3600)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/archive/master.zip) [![GitHub commits](https://img.shields.io/github/commits-since/adamdehaven/Wallpapers-from-Unsplash/v2.2.svg?maxAge=3600)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/compare/v2.2...master) [![GitHub issues](https://img.shields.io/github/issues/adamdehaven/Wallpapers-from-Unsplash.svg?maxAge=3600)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/issues) [![license](https://img.shields.io/github/license/adamdehaven/Wallpapers-from-Unsplash.svg?maxAge=3600)](https://raw.githubusercontent.com/adamdehaven/Wallpapers-from-Unsplash/master/LICENSE)
 
 A collection of Terminal commands and an Alfred workflow that allow Mac users to replace their desktop background(s) with photos from the popular [Unsplash.com](http://unsplash.com). 
 
@@ -46,7 +46,7 @@ KEYWORD|ARGUMENT|DESCRIPTION
 `unsplash`|none|Replaces the desktop background(s) with a random photo from Unsplash
 `featured`|none|Replaces the desktop background(s) with a random **featured** photo from Unsplash
 `search`|`comma-separated keyword(s)`|Replaces the desktop background(s) with a random photo matching the **search keyword(s)** from Unsplash. Separate keywords with commas and **NO spaces**.<br><br>**_Example:_** `search sunrise,city`
-`category`|`valid category string`|Replaces the desktop background(s) with a random photo from the **specified category** from Unsplash. Available categories: buildings, food, nature, people, technology, objects.<br><br>**_Example:_** `category food`
+~~`category`~~ **DEPRECIATED**|~~`valid category string`~~|~~Replaces the desktop background(s) with a random photo from the **specified category** from Unsplash. Available categories: buildings, food, nature, people, technology, objects.<br><br>**_Example:_** `category food`~~
 `collection`|`collection id`|Replaces the desktop background(s) with a random photo from the **specified collection** from Unsplash.<br><br>**_Example:_** `collection 165921`
 `username`|`string`|Replaces the desktop background(s) with a random photo from the **specified user's** photos from Unsplash.<br><br>**_Example:_** `username stvcrtr`
 `fetch`|`photo id`|Replaces the desktop background(s) with a **specified photo** from Unsplash.<br><br>**_Example:_** `fetch KqVHRmHVwwM`
@@ -96,7 +96,6 @@ $ unsplash --help
 #       $ unsplash
 #       $ unsplash featured
 #       $ unsplash search [keyword,keyword]
-#       $ unsplash category [category id]
 #       $ unsplash collection [collection id]
 #       $ unsplash username [username]
 #       $ unsplash fetch [photo id]
